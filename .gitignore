@@ -1,0 +1,43 @@
+
+# Build output
+bin/
+obj/
+build/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider/IntelliJ
+.idea/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Backup and temporary files
+*.tmp
+*.bak
+*.swp
+
+# Textures or large external assets (optional)
+#Assets/Textures/
+#Assets/Models/
+
+# Environment variables
+.env

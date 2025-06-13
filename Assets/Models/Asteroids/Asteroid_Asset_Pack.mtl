@@ -1,0 +1,26 @@
+# Blender MTL File: Asteroid_Asset_Pack.mtl
+# Optimized for SpaceSim Project
+# PBR Texture Setup
+
+newmtl Asteroid_Material
+
+# PBR Texture Maps (Relative Paths)
+map_Kd ../Textures/Asteroid/albedo.jpg        # Base Color
+map_bump ../Textures/Asteroid/normal.jpg      # Normal Map (OpenGL format)
+map_Pr ../Textures/Asteroid/roughness.jpg     # Roughness
+map_Ao ../Textures/Asteroid/ao.jpg            # Ambient Occlusion (optional)
+
+# Material Parameters
+illum 2                                       # Blinn-Phong shading (overridden by PBR)
+Ns 225.000000                                 # Specular exponent (legacy)
+Ka 1.000000 1.000000 1.000000                 # Ambient color (legacy)
+Kd 0.800000 0.800000 0.800000                 # Diffuse color (legacy, overridden by albedo map)
+Ks 0.500000 0.500000 0.500000                 # Specular color (legacy)
+Ke 0.000000 0.000000 0.000000                 # Emissive
+Ni 1.450000                                   # Optical density
+d 1.000000                                    # Dissolve (opacity)
+
+# PBR Extensions (Uncomment if needed)
+#map_Pm ../Textures/Asteroid/metallic.jpg     # Metallic (typically 0 for asteroids)
+#disp ../Textures/Asteroid/height.jpg         # Displacement/Height map
+#map_Ke ../Textures/Asteroid/emissive.jpg     # Emission map
